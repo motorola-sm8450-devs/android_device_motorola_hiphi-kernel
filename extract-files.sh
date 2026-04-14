@@ -71,6 +71,8 @@ find "${TMP_DIR}/dtbs" -type f -name "*.dtb" \
     -exec basename {} \;
 cp -f "${DUMP}/dtbo.img" "${MY_DIR}/dtbo.img"
 echo "  - dtbo.img"
+cp -f "${DUMP}/vendor_boot/dtb.img" "${MY_DIR}/dtb.img"
+echo "  - dtb.img"
 
 ### Modules
 # Cleanup / Preparation
