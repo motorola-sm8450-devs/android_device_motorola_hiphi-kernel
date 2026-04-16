@@ -324,3 +324,9 @@ touchscreen_mmi.ko
 hall_pen.ko
 stmicro_mmi.ko
 goodix_brl_mmi.ko
+spf_core_dlkm.ko
+gpr_dlkm.ko
+snd_event_dlkm.ko
+q6_notifier_dlkm.ko
+q6_pdr_dlkm.ko
+adsp_loader_dlkm.ko
